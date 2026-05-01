@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+# 📋 Task Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and user-friendly task management app built with **React, TypeScript, and Firebase**.
 
-Currently, two official plugins are available:
+This project allows users to manage their tasks efficiently with a simple and intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔐 User authentication (Register & Login)
+* 📥 Add new tasks
+* ✏️ Edit existing tasks
+* ✅ Mark tasks as completed
+* 🗑️ Delete tasks
+* 🧹 Clear all completed tasks
+* 🖼️ Category-based task images
+* 👤 User-specific task lists
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* React (Vite)
+* TypeScript
+* Firebase (Authentication & Firestore)
+* Bootstrap
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Screenshots
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<img width="1501" height="932" alt="HomePage" src="https://github.com/user-attachments/assets/e10d5071-a0b2-4f73-b88a-ce8e146156ee" />
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<img width="1501" height="924" alt="AddTask" src="https://github.com/user-attachments/assets/9ac0399b-7b0e-4865-9a87-f98207c7365d" />
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<img width="1502" height="928" alt="CompletedTask" src="https://github.com/user-attachments/assets/7ef3d584-d33c-49de-ad22-f2e6f66c8561" />
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+
+   ```
+   npm install
+   ```
+3. Run the app:
+
+   ```
+   npm run dev
+   ```
+
+---
+
+## 🌿 Notes
+
+* Environment variables are stored locally and not included in the repository.
+* Firebase is used for authentication and database functionality.
+* Images are from pexels.com
+
+---
+
+## 💚 Author
+
+Alexandria (MintBanshee)
