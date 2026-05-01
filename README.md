@@ -28,6 +28,19 @@ This project allows users to manage their tasks efficiently with a simple and in
 
 ---
 
+## 🎥 Demo Video
+
+This video demonstrates:
+- User authentication (register/login)
+- Task creation, editing, and deletion
+- Marking tasks as completed
+- User-specific task filtering
+- Category based images in firestore
+
+[Watch Demo Video](https://drive.google.com/file/d/1RsalmOj8hX2FXYl0aMkZ2JMbKP_hPmo4/view?usp=sharing)
+
+--- 
+
 ## 📸 Screenshots
 
 <img width="1501" height="932" alt="HomePage" src="https://github.com/user-attachments/assets/e10d5071-a0b2-4f73-b88a-ce8e146156ee" />
